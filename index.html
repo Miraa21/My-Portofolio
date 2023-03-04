@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mira Elatky</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+          
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/about.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Mira Elatky</h2>
+                    <h3 class="profile__profession"><em>Advancing Frontend Developer</em></h3>
+                    <ul class="profile__social">
+                        <a class="profile__social-link" href="https://www.linkedin.com/in/mira-elatky-43345624a/"target="_blank">
+                            <i class="ri-linkedin-box-line"></i></a>
+                        <a class="profile__social-link" href="https://github.com/Miraa21" target="_blank">
+                            <i class="ri-github-line"></i></a>
+                    </ul>
+
+                </div>
+
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">Fresh Graduate</h3>
+                            <p class="profile__info-description"></p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">8+</h3>
+                            <p class="profile__info-description">Completed <br> Projects</p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">2</h3>
+                            <p class="profile__info-description">Satisfied <br> Customers</p>
+                    </div>
+                </div>
+
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/MiraEmad_ElAtky_Resume_3.pdf" class="button">
+                        Download CV <i class="ri-download-line"></i>
+                    </a>
+                    <div class="profile__buttons-small">
+                        <a class="button button__small button__gray "href="mailto:miraelatkty23@gmail.com"><i class="ri-mail-line"></i></a>
+                        <a class="button button__small button__gray"href="https://m.me/Emad.Mira" target="_blank"><i class="ri-messenger-line"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                    <ul class="filters__content">
+                        <button onclick="switch_div(1);"  class="filters__button filter-tab-active" data-target="#projects">
+                            <a href="projects.html">Projects</a> 
+                        </button>
+                        <button onclick="switch_div(2);" class= "filters__button" data-target="#skills">
+                            Skills
+                        </button>
+                        <button onclick="switch_div(3);" class= "filters__button" data-target="#projects">
+                            About me
+                        </button>
+                    </ul>
+                <div class="filters__sections">
+                       <!-- About me -->
+                <div class="about__content grid content " data-content id="show_3">
+                    <h3 style="text-align: center;">Skills</h3>
+                </div>
+                    <!--=============== PROJECTS ===============-->
+
+
+
+
+                        <br>
+                    <!--=============== SKILLS ===============-->
+
+                    
+                </div>
+             
+            </section>
+
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Mira Elatky. All rights reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
