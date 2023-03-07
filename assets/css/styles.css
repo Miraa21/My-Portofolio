@@ -335,7 +335,9 @@ column-gap: .5rem;
   bottom:0;
 }
 /*=============== SKILLS ===============*/
-
+.skills__content{
+  row-gap: 3.5rem;
+}
 .skills__title{
   font-size: var(--h3-font-size);
   text-align: center;
@@ -355,7 +357,7 @@ column-gap: .5rem;
   grid-template-columns: repeat(2,120px);
 }
 .skills_data{
-  /* display: flex; */
+  display: flex;
   column-gap: .5rem;
 }
 .skills_data i{
